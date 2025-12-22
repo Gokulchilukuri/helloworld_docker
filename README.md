@@ -1,15 +1,41 @@
-# Simple Python Flask Dockerized Application#
+# Dockerized Python Web App 🐳
 
-Build the image using the following command
+
+
+## 📌 Overview
+
+This project demonstrates how to containerize a simple Python Flask web application. It solves the "It works on my machine" problem by using **Docker** to package the code, runtime, and dependencies into a lightweight, portable image.
+
+
+
+## 🛠️ Tech Stack
+
+* **Language:** Python 3.9
+
+* **Framework:** Flask
+
+* **Containerization:** Docker
+
+* **Version Control:** Git & GitHub
+
+
+
+## 🚀 How to Run Locally
+
+
+
+### Prerequisites
+
+* Docker Desktop installed
+
+* Git installed
+
+
+
+### 1. Clone the Repository
 
 ```bash
-$ docker build -t simple-flask-app:latest .
-```
 
-Run the Docker container using the command shown below.
+git clone [https://github.com/YOUR_USERNAME/my-docker-app.git](https://github.com/gokulchilukuri/my-docker-app.git)
 
-```bash
-$ docker run -d -p 5000:5000 simple-flask-app
-```
-
-The application will be accessible at http:127.0.0.1:5000 or if you are using boot2docker then first find ip address using `$ boot2docker ip` and the use the ip `http://<host_ip>:5000`
+cd my-docker-app
