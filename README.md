@@ -36,6 +36,6 @@ This project demonstrates how to containerize a simple Python Flask web applicat
 
 ```bash
 
-git clone [https://github.com/YOUR_USERNAME/my-docker-app.git](https://github.com/gokulchilukuri/my-docker-app.git)
+git clone [https://github.com/gokulchilukuri/my-docker-app.git](https://github.com/gokulchilukuri/my-docker-app.git)
 
 cd my-docker-app
